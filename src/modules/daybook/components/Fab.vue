@@ -1,5 +1,6 @@
 <template>
   <button
+    @click="$emit('on:click')"
     class="btn btn-primary"
     :class="colorButton"
     >
